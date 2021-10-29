@@ -6,6 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: "Zen Antique Soft", serif;
   font-family: "Zen Old Mincho", serif;
+  size: 100%;
   
 }
 
@@ -81,6 +82,7 @@ img{
     justify-content: space-between;
     align-items: center;
     margin-top: 13px;
+    position: sticky;
 }
 #imgpic:hover{
     background-color:#f2f3f5 ;
@@ -89,6 +91,7 @@ img{
 }      
 .right_icon{
     display: flex;
+    position: sticky;
 }
 .right_icon  i{
     
@@ -98,18 +101,21 @@ img{
      display: flex;
      align-items: center;
      border-radius: 9px;
+     position: sticky;
 }
 .right_icon a{
     font-size: 22px;
     color: black;
     text-decoration: none;
     display: flex;
+    position: sticky;
     
 }
 .right_icon i:hover {
 background-color: #f0f2f5;
 padding: 13px;
  border-radius: 9px;
+ position: sticky;
 }
 /* CONTAINER */
 .container{
@@ -127,6 +133,7 @@ padding: 13px;
     display: flex;
     flex-direction: column;
     overflow: scroll;
+    height: 600px;
     width: 22%;
     position: sticky;
     top: 80px;
@@ -147,6 +154,7 @@ padding: 13px;
     flex-direction: column;
     overflow: scroll;
     width: 59%;
+    height: 1000px;
 }
 #imgcenter{
     display: flex;
@@ -226,10 +234,11 @@ padding: 13px;
     border-radius: 5px;
 }
 /* RIGHT_SIDE */
-.right_side{
+.right_side1{
     display: flex;
     flex-direction: column;
     overflow: scroll;
+    height: 600px;
     width: 19%;
     float: right;
     position: sticky;
