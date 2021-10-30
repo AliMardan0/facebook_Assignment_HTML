@@ -132,7 +132,7 @@ padding: 13px;
 .left_side{
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    
     height: 600px;
     width: 22%;
     position: sticky;
@@ -141,6 +141,10 @@ padding: 13px;
     padding: 2px;
     
     
+}
+.left_side:hover{
+    overflow: scroll;
+
 }
 .left_side span{
     padding: 11px;
@@ -152,9 +156,12 @@ padding: 13px;
 .center{
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    
     width: 59%;
     height: 1000px;
+}
+.center:hover{
+    overflow: scroll;
 }
 #imgcenter{
     display: flex;
@@ -237,12 +244,15 @@ padding: 13px;
 .right_side1{
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+   
     height: 600px;
     width: 19%;
     float: right;
     position: sticky;
     top: 80px;
+}
+.right_side1:hover{
+    overflow: scroll;
 }
 .right_side{
     font-size: 28px;
